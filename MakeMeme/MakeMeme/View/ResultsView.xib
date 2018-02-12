@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="impact.ttf">
+            <string>Impact</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResultsView" customModule="MakeMeme" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="pgx-9K-mlC"/>
+                <outlet property="resultsImageView" destination="w0D-kt-om0" id="fCx-o2-ISc"/>
+                <outlet property="resultsTextLabel" destination="MGL-Qn-l58" id="G7c-ed-pYy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w0D-kt-om0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGL-Qn-l58">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="30"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="MGL-Qn-l58" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2ww-W1-6iy"/>
+                <constraint firstItem="MGL-Qn-l58" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="F4H-ce-BoG"/>
+                <constraint firstItem="w0D-kt-om0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Tft-fn-A0M"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MGL-Qn-l58" secondAttribute="trailing" id="a7M-pB-iiS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MGL-Qn-l58" secondAttribute="bottom" id="cnZ-d9-51m"/>
+                <constraint firstItem="w0D-kt-om0" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="pUU-dI-4bI"/>
+                <constraint firstItem="w0D-kt-om0" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="w5J-0J-aIT"/>
+                <constraint firstItem="w0D-kt-om0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xF5-bg-PMO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
