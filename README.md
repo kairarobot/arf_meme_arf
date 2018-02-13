@@ -24,5 +24,6 @@ The user is first presented the view of `MemeView.swift` which is incorporated w
 
 <div align="middle">
 <img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="300px">
+&nbsp;
 <img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview2.png" width="300px">
 </div>
