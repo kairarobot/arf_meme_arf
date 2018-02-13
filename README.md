@@ -22,6 +22,6 @@ A simple meme generator consisting of two views (main and detail). The applicati
 
 The user is first presented the view of `MemeView.swift` which is incorporated within the navigation controller of `Main.storyboard`. User input is stored into model `Meme.swift` via the controller `MemeViewController.swift`. Once the user is satisfied with the content,the meme is generated and the next view appears `ResultsView.swift`. From the controller `ResultsViewController.swift` the user can user gesture recognizers to change the size(pinch) of the text or move(pan) the text around.
 
-<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="200px">
-<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="200px">
-<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="200px">
+<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="300px">
+<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="300px">
+<img src="https://github.com/kairaygun/make_meme/blob/master/images/makeme_preview1.png" width="300px">
