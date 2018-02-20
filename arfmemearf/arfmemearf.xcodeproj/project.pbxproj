@@ -20,7 +20,6 @@
 		A2089ECB203BBFA9008D5AB4 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2089ECA203BBFA9008D5AB4 /* Meme.swift */; };
 		A2089ECE203BBFB8008D5AB4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2089ECC203BBFB8008D5AB4 /* ResultsViewController.swift */; };
 		A2089ECF203BBFB8008D5AB4 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2089ECD203BBFB8008D5AB4 /* MemeViewController.swift */; };
-		A24A1C72203BC1B30064A41E /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A24A1C71203BC1B30064A41E /* impact.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,7 @@
 		A2089ECA203BBFA9008D5AB4 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 		A2089ECC203BBFB8008D5AB4 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		A2089ECD203BBFB8008D5AB4 /* MemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
-		A24A1C71203BC1B30064A41E /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.ttf; sourceTree = "<group>"; };
+		A2CE06E3203C72510044B83D /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +110,7 @@
 		A2089E8C203BBEB5008D5AB4 /* arfmemearf */ = {
 			isa = PBXGroup;
 			children = (
-				A24A1C70203BC1B30064A41E /* Fonts */,
+				A2CE06E2203C724A0044B83D /* Fonts */,
 				A2089E8D203BBEB5008D5AB4 /* AppDelegate.swift */,
 				A2089EBB203BBF53008D5AB4 /* Model */,
 				A2089EBC203BBF58008D5AB4 /* View */,
@@ -170,13 +169,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A24A1C70203BC1B30064A41E /* Fonts */ = {
+		A2CE06E2203C724A0044B83D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				A24A1C71203BC1B30064A41E /* impact.ttf */,
+				A2CE06E3203C72510044B83D /* Impact.ttf */,
 			);
 			name = Fonts;
-			path = ../../arf_meme_arf/ArfMemeArf/ArfMemeArf/Fonts;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +287,6 @@
 			files = (
 				A2089E95203BBEB5008D5AB4 /* Assets.xcassets in Resources */,
 				A2089EC8203BBF93008D5AB4 /* Main.storyboard in Resources */,
-				A24A1C72203BC1B30064A41E /* impact.ttf in Resources */,
 				A2089EC7203BBF93008D5AB4 /* ResultsView.xib in Resources */,
 				A2089EC5203BBF93008D5AB4 /* MemeView.xib in Resources */,
 				A2089EC4203BBF93008D5AB4 /* LaunchScreen.storyboard in Resources */,
